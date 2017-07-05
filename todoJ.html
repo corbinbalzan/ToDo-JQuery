@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<head> 
+
+
+	<link href='todoJ.css' rel='stylesheet' type='text/css'> 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+
+</head> 
+<body>
+    <div class="main-container">
+
+
+ 		<h1 class='main-title'>To-Do List Application </h1>  
+ 		<h3 class='main-h3'> By: Corbin Balzan </h3>
+
+ 		<div class='content'>
+
+ 		<div class='adder'>
+ 		<div class='h3-wrap group'> 
+    		<h3 class='h3-title'> Add Item </h3> 
+    		
+    	</div>
+
+    		<input type="text" id='addItem' value='Type Here'></input>
+    		<button id='addButton1'> Submit </button>
+    	</div>
+
+    	<form id='priorityForm'>
+    		<h4> Priority </h4>
+		    <input type="radio" name="priority" value="high" > High
+		    <br>
+		    <input type="radio" name="priority" value="medium"
+		    > Medium
+		    <br>
+		    <input type="radio" name="priority" value="low"> Low
+		    <br>
+		     <input type="radio" name="priority" value="neutral" checked> Neutral
+		</form>
+
+
+    	<div class='items-list'>
+
+	    	<div class='h3-wrap group'>
+	    		<h3 class='h3-title'> Incomplete Items </h3>
+	    		<button id="inFinish"> Complete All </button>
+	    	</div>
+	    		<ul id="incomplete"> 
+
+	    		</ul> 
+
+	    	<div class='h3-wrap group'> 
+	    		<h3 class='h3-title'> Completed Items </h3>	
+	    		<button id="inClear"> Clear </button>
+	    	</div>
+	    		<ul id="complete"> 
+	    		</ul> 
+
+    	</div>
+    	</div>
+    </div>
+
+ 
+  </body>
+ <script type="text/javascript" src="../jquery-3.0.0.js"></script>
+	<script src='todoj2.js'> </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
