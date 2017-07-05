@@ -135,10 +135,11 @@ $("#inClear").on("click", function(){
 var listLength = document.getElementById("incomplete");
 
 $("#inFinish").on("click", function(){
-  for ( var counter = 0; counter <listLength.length; counter += 1 ){
-    alert("Hey");
-  }
+  $("#incomplete input").trigger('click');;
 });
+
+
+
 
 
 
