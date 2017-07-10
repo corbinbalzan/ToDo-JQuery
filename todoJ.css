@@ -268,3 +268,46 @@ input[type=checkbox]{
 
 
 
+
+
+@media (min-width:769px){  
+
+	.adder{
+		display:inline-block;
+		width: 100%;
+		margin: 0 30px 0 0 ;
+	}
+
+	#leftSideContent{
+		float:left;
+		width: 40%;
+	}
+
+	.items-list{
+		display:inline-block;
+		width: 55%;
+		float:right;
+	}
+
+	.main-container{
+		width: 80%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
