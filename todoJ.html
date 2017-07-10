@@ -14,31 +14,50 @@
  		<h3 class='main-h3'> By: Corbin Balzan </h3>
 
  		<div class='content'>
+ 		<div id="leftSideContent">
+	 		<div class='adder'>
+	 		<div class='h3-wrap group'> 
+	    		<h3 class='h3-title'> Add Item </h3> 
+	    		
+	    	</div>
 
- 		<div class='adder'>
- 		<div class='h3-wrap group'> 
-    		<h3 class='h3-title'> Add Item </h3> 
-    		
-    	</div>
+	    		<input type="text" id='addItem' placeholder='Type Here'></input>
+	    		<button id='addButton1'> Submit </button>
+	    	</div>
 
-    		<input type="text" id='addItem' value='Type Here'></input>
-    		<button id='addButton1'> Submit </button>
-    	</div>
 
-    	<form id='priorityForm'>
-    		<h4> Priority </h4>
-		    <input type="radio" name="priority" value="high" > High
-		    <br>
-		    <input type="radio" name="priority" value="medium"
-		    > Medium
-		    <br>
-		    <input type="radio" name="priority" value="low"> Low
-		    <br>
-		     <input type="radio" name="priority" value="neutral" checked> Neutral
-		</form>
+	<br>
+	    	<div id='priorityForm'>
+	    		<h4> Priority </h4>
+			    <input type="radio" name="priority" value="high" > <label>High</label>
 
+			    <input type="radio" name="priority" value="medium"
+			    > <label>Medium</label>
+
+			    <input type="radio" name="priority" value="low"> <label>Low</label>
+
+			     <input type="radio" name="priority" value="neutral" checked> <label>Neutral</label>
+			</div>
+
+			<br>
+
+			<div id="userPrefs">
+				<button id="prefsButton"> User Preferences</button> 
+				<p id="prefsSettingsList"> Dark Mode :  <input type='checkbox' id="darkModeCheckbox" class="lightMode">
+
+				Big Text :  <input type='checkbox' id="bigTextCheckbox" class="regularMode">
+
+				</p> 
+
+			</div> 
+		</div>
 
     	<div class='items-list'>
+
+    		<div id="progressTracker">
+    		</div> 
+    		<div id="progressTrackerBar"></div> 
+
 
 	    	<div class='h3-wrap group'>
 	    		<h3 class='h3-title'> Incomplete Items </h3>
@@ -61,30 +80,8 @@
 
  
   </body>
- <script type="text/javascript" src="../jquery-3.0.0.js"></script>
+ <script type="text/javascript" src="jquery.js"></script>
 	<script src='todoj2.js'> </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
